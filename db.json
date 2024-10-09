@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "1728221047576",
+      "username": "cc",
+      "password": "11",
+      "userbords": [
+        {
+          "modelData": {
+            "name": "dgdggdg",
+            "age": "33",
+            "work": "sfffsfd",
+            "address": "gfggdfgdg",
+            "id": "1728221047576"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1728462259926,
+      "username": "Chirag.bhaskar@sulok.in",
+      "password": "ch@bhaskar"
+    },
+    {
+      "id": 1728471432861,
+      "username": "bb",
+      "password": "22"
+    }
+  ],
+  "boards": [
+    {
+      "id": "1",
+      "name": "Work",
+      "userId": 1
+    }
+  ],
+  "notes": [
+    {
+      "id": "1",
+      "boardId": 1,
+      "title": "Finish report",
+      "content": "Complete the quarterly report.",
+      "priority": "High"
+    }
+  ]
+}

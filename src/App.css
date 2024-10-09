@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wraper {
+  background: linear-gradient(to right, #5a67d8, #38b2ac);
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  width: 100%;
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.wraper input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-input{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #5a67d8, #38b2ac);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: linear-gradient(to right, #4c51bf, #2d9a8a);
+}
+
+.links {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.links a {
+  color: #5a67d8;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.home-wraper{
+  background: linear-gradient(to right, #5a67d8, #38b2ac);
+  min-width: 100%;
+  min-height: 100vh; 
+}
+header{
+  padding: 30px 50px;
+  /* box-shadow: 0 0 40px 5px #fff; */
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-btn-box{
+  display: flex;
+  gap: 2;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+header .logo{
+  font-size: 50px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bords-btn{
+  /* border: 1px solid #000; */
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
+  margin: 0 10px;
+  width: max-content;
+}
+.borrd-box{
+  border: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  margin: 10px 0 10px 0;
+  padding: 10px;
+}
+.borrd-box span{
+  font-size: 14px;
+  /* margin: 5px 0; */
+  display: block;
+}
+.borrd-box p{
+  font-size: 18px;
+  margin: 0;
 }
