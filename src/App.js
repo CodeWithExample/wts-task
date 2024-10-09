@@ -7,6 +7,10 @@ import Home from './components/Home';
 import PrivateRoutes from './PrivateRoutes';
 
 function App() {
+
+  // json-server start commond
+
+    // json-server --whatch dblClick.json --port 5000
   
   return (
     <>
