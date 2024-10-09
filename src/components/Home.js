@@ -64,8 +64,6 @@ useEffect(()=>{
        
  
   }
-
-
   return (
     <>
         <Modal
