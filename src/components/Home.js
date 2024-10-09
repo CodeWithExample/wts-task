@@ -59,10 +59,6 @@ useEffect(()=>{
 
         localStorage.setItem(id, JSON.stringify(todo))
         setModalShow(false) 
-
-
-       
- 
   }
   return (
     <>
